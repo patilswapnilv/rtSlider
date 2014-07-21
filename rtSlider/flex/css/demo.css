@@ -1,0 +1,60 @@
+/* General
+***********************/
+
+#slider {margin: 0 0 10px!important;}
+#carousel li {margin-right: 5px;}
+#carousel img {display: block; opacity: .5; cursor: pointer;}
+#carousel img:hover {opacity: 1;}
+#carousel .flex-active-slide img {opacity: 1; cursor: default;}
+
+
+/* Loading
+***********************/
+.loading aside {opacity: 0;}
+aside {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;}
+aside h3 {float: left;}
+
+/* Layout
+***********************/
+#top { position: relative; z-index: 999; height:65px; padding: 5px 0; border-bottom: 1px solid #577794;
+
+background: rgb(226,232,239); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(226,232,239,1) 0%, rgba(210,219,228,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,232,239,1)), color-stop(100%,rgba(210,219,228,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(226,232,239,1) 0%,rgba(210,219,228,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(226,232,239,1) 0%,rgba(210,219,228,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(226,232,239,1) 0%,rgba(210,219,228,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(226,232,239,1) 0%,rgba(210,219,228,1) 100%); /* W3C */ 
+
+ }
+#top  { text-align: center; }
+#top .top-inner  { max-width: 800px; width: auto; }
+#top img  { float: none; display: inline; margin-top: 12px; }
+#containerFlexDiv { position:relative;	}
+.loading_rsSlider{background:url('../images/loading.gif'); width:15px; height:15px; display:block; position:absolute; left:50%; top:50%;}
+
+
+/* --Clearfix */
+.cf:before,
+.cf:after {content:""; display:table;}
+.cf:after {clear:both;}
+.cf {zoom:1;}
+
+.rsSliderWrap{position:relative;}
+.rsSliderContent{ position:absolute; bottom:10px; left:10px; padding:10px; background:#CCC; border:#000 1px solid;}
+.rsSliderContent a{color:#000; font-weight:bold; text-decoration:underline;}
+.rsSliderContent a:hover{color:#000; text-decoration:none;}
+
+
+/* Media Queries
+***********************/
+@media screen and (max-width: 960px) {
+
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 500px) {
+
+}
