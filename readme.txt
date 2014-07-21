@@ -8,11 +8,6 @@ After doing that you can select your own custom size in the Slider setting panel
 
 More over you can choose to display the title and description of each image and you can also hide it admin panel setting
 
-== Screenshots ==
-
-1. Admin panel will look like this. You can use this shortcode in the content.
-2. Add new slides inside gallery.
-3. Slider setting panel
 
 == Installation ==
 
