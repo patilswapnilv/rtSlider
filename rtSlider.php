@@ -43,7 +43,7 @@ function add_post_type_rtslider() {
 				'name' => 'Sliders', //general name for the post type, usually plural. The same as, and overridden by $post_type_object->label
 			    'singular_name' => 'Slider'
 			), // (string) (optional) A plural descriptive name for the post type marked for translation.
-			'public' => false, // (boolean) (optional) Whether posts of this type should be shown in the admin UI.
+			'public' => true, // (boolean) (optional) Whether posts of this type should be shown in the admin UI.
 			'exclude_from_search' => false, //(boolean) (importance) Whether to exclude posts with this post type from search results.
 			'publicly_queryable' => true,//(boolean) (optional) Whether post_type queries can be performed from the front page.
 			'show_ui' => true, // (boolean) (optional) Whether to generate a default UI for managing this post type.
