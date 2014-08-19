@@ -1,6 +1,8 @@
 rtSlider creates multiple gallery each having multiple images
 
 == Description ==
+
+
 rtSlider can create multiple image galleries and you can display by using short code [rtSlider id=27]. Where 27 is the post id. You can get this shortcode in the admin panel.
 
 Each gallery can be of different size. You can set the size of gallery under the Slider panel setting. If you want to add your own custom size then use add_image_size() in the function.php file. More detail can be found here how to add custom image sizes http://codex.wordpress.org/Function_Reference/add_image_size
